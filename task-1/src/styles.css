@@ -1,0 +1,44 @@
+body {
+    background: #373E98;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+br {
+    display: block;
+    content: "";
+    margin-top: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+.list-title {
+    margin: 5px 0 5px 0;
+}
+
+.list-title, ul {
+    font-size: 20px;
+}
+
+li {
+    margin: 5px 0 5px 0;
+}
+
+.app {
+    max-width: 600px;
+    margin: auto;
+}
+
+.link {
+    display: block;
+    color: #FFFFFF;
+}
+
+.picture {
+    display: block;
+    width: 100%;
+
+    margin: 10px;
+}
