@@ -1,0 +1,18 @@
+.Main {
+    margin: auto;
+    max-width: 1400px;
+
+    padding-bottom: 20px;
+
+    box-shadow: 0 0 2px #000000;
+}
+
+.Main_light {
+    background: #f5f5f5;
+    color: #242732;
+}
+
+.Main_dark {
+    background: #232732;
+    color: #aaaeb9;
+}

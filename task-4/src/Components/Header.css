@@ -1,0 +1,15 @@
+.Header {
+    background: #003554;
+
+    padding: 15px 0;
+    color: #ffffff;
+
+    box-shadow: 0 0 5px #000000;
+
+    position: relative;
+    z-index: 1;
+}
+
+.Header_Content {
+    padding: 0 15px;
+}

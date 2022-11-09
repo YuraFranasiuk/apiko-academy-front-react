@@ -1,0 +1,37 @@
+.Pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    font-size: 25px;
+    font-weight: 600;
+
+    padding: 10px 25px;
+}
+
+.Pagination_light * {
+    color: #242732;
+}
+
+.Pagination_dark * {
+    color: #aaaeb9;
+}
+
+.Pagination_Button_clear {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.Pagination_Button {
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.Pagination_Button:disabled {
+    opacity: 0.2;
+}

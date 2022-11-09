@@ -1,0 +1,17 @@
+.RateSwitch {
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+
+    background: #0582ca;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    width: fit-content;
+    border: none;
+    border-radius: 10px;
+}
+
+.RateSwitch:hover {
+    text-decoration: underline;
+}

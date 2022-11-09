@@ -1,0 +1,25 @@
+.RateSwitch {
+    align-self: flex-start;
+
+    text-decoration: underline;
+
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.RateSwitch_ligth {
+    color: #242732;
+}
+
+.RateSwitch_dark {
+    color: #aaaeb9;
+}
+
+.RateSwitch_clear {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}

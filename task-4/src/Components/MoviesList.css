@@ -1,0 +1,16 @@
+.MoviesList {
+    background: #013a63;
+    box-shadow: 0 0 5px #000000;
+
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.MoviesList_Movies {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

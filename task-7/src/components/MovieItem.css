@@ -1,0 +1,50 @@
+.MovieItem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 25px;
+
+    box-shadow: 0 0 2px #000000;
+}
+
+.MovieItem_light {
+    background: #f9f8fc;
+    color: #242732;
+}
+
+.MovieItem_dark {
+    background: #2e323e;
+    color: #aaaeb9;
+}
+
+.MovieItem_Title {
+    width: fit-content;
+
+    padding: 5px 10px;
+
+    border-radius: 7px;
+
+    background: rgba(158, 172, 246, 0.75);
+    color: #242732;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.MovieItem_Content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.MovieItem_Poster {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MovieItem_Overview {
+    text-align: justify;
+    font-size: 20px;
+}

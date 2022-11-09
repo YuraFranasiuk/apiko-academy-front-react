@@ -1,0 +1,43 @@
+.Pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0 0 5px #000000;
+    border-radius: 10px;
+    padding: 10px;
+
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Pagination_Pages {
+    color: #013a63;
+
+    font-size: 20px;
+    font-weight: bolder;
+
+    margin: 0 20px;
+}
+
+.Pagination_Button {
+    width: 50px;
+    height: 40px;
+
+    font-size: 25px;
+    font-weight: bolder;
+
+    background: #013a63;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.Pagination_Button:disabled {
+    cursor: not-allowed;
+}

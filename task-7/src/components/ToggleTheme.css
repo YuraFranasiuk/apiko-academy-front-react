@@ -1,0 +1,31 @@
+.ToggleTheme {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+
+    font-size: 30px;
+    font-weight: 600;
+
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+.ToggleTheme_Button_clear {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.ToggleTheme_dark {
+    color: #aaaeb9;
+    background: #2c313b;
+}
+
+.ToggleTheme_light {
+    color: #242732;
+    background: #f9f8fc;
+}

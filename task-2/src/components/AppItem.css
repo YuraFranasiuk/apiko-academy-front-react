@@ -1,0 +1,20 @@
+.app-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    padding: 20px;
+    margin-bottom: 20px;
+
+    color: #ffffff;
+    background: #1a952c;
+}
+
+.app-item__name {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.app-item__description {
+    font-size: 25px;
+}

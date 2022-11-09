@@ -1,0 +1,9 @@
+.MoviesList {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+
+    border-right: 2px solid rgba(220, 220, 220, 0.1);
+    border-left: 2px solid rgba(220, 220, 220, 0.1);
+}

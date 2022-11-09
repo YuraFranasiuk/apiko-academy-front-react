@@ -1,0 +1,26 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    top: 0;
+    position: sticky;
+
+    padding: 15px 25px;
+
+    box-shadow: 0 0 2px #000000;
+
+    border-top: 2px solid rgba(220, 220, 220, 0.1);
+    border-bottom: 2px solid rgba(220, 220, 220, 0.1);
+}
+
+.Header_light {
+    background: #ffffff;
+    color: #242732;
+}
+
+.Header_dark {
+    background: #242732;
+    color: #aaaeb9;
+}
